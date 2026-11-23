@@ -1,0 +1,16 @@
+.enterprise-links { background: #102439; color: white; }
+.enterprise-links .shell { display: flex; justify-content: flex-end; gap: 1.35rem; padding-block: .45rem; }
+.enterprise-links a { color: inherit; text-decoration: none; font-size: .8rem; }
+.enterprise-links a:hover { text-decoration: underline; }
+.hero-cinema { min-height: 0; background: #102439; }
+.hero-cinema .hero-cinema-inner { display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; gap: clamp(1.5rem,4vw,4rem); padding-block: clamp(2rem,5vw,5rem); }
+.hero-cinema .hero-copy { align-self: center; }
+.hero-cinema h1 { font-size: clamp(2.35rem,4.5vw,4.5rem); }
+.enterprise-photo { position: relative; min-height: clamp(20rem,32vw,30rem); margin: 0; overflow: hidden; border-bottom: .25rem solid #3cd5cf; }
+.enterprise-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.solution-card-dark .solution-visual img { width: 100%; height: 100%; padding: 5%; }
+@media (max-width: 760px) {
+  .hero-cinema .hero-cinema-inner { grid-template-columns: 1fr; }
+  .enterprise-photo { min-height: 0; aspect-ratio: 16/9; }
+  .enterprise-links .shell { justify-content: center; }
+}
