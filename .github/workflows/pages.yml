@@ -35,7 +35,7 @@ jobs:
           DB_DATABASE: database/database.sqlite
           STATIC_SOURCE: http://127.0.0.1:8000
           PAGES_URL: https://w4lterromero.github.io
-          PAGES_BASE_PATH: /nodaxis/
+          PAGES_BASE_PATH: /nodaxis-empresas/
         run: |
           cp .env.example .env
           touch database/database.sqlite

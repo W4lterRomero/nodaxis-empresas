@@ -7,22 +7,18 @@
     <div class="hero-cinema-inner shell">
         <div class="hero-copy" data-reveal>
             <p class="hero-breadcrumb">Ingeniería de redes · El Salvador</p>
-            <h1 id="hero-title">Conecta cada área de tu empresa.</h1>
-            <p class="hero-intro">Diseñamos e instalamos redes cableadas y Wi-Fi. Cuéntanos qué equipos y espacios necesitas conectar.</p>
+            <h1 id="hero-title">Infraestructura de red para empresas.</h1>
+            <p class="hero-intro">Diseñamos e instalamos redes cableadas y Wi-Fi. Planifica la apertura de una sede, la ampliación de tu red o la renovación del cableado.</p>
             <div class="hero-actions"><a class="button button-primary" href="{{ url('/cotizar') }}">Solicitar cotización</a><a class="hero-secondary" href="#catalogo">Ver equipos</a></div>
         </div>
-        <figure class="hero-product-scene" data-reveal>
-            <span class="hero-scene-grid" aria-hidden="true"></span>
-            <img data-hero-product src="{{ asset('assets/catalog/switch.webp') }}" alt="Switch para redes empresariales" width="1200" height="900" fetchpriority="high">
-            <span class="hero-product-index" aria-hidden="true">SWITCHES</span>
-        </figure>
+        <figure class="enterprise-photo"><img src="{{ asset('assets/motion/office-networking-v3.webp') }}" alt="Oficina y gabinete de comunicaciones" fetchpriority="high"></figure>
         <div class="hero-scroll-cue" aria-hidden="true"><span></span> Baja para ver las soluciones</div>
     </div>
 </section>
 
 <section class="showcase-section section-space" id="experiencia" aria-labelledby="showcase-title">
     <div class="shell">
-    <div class="showcase-heading" data-reveal><p class="eyebrow">Redes, Wi-Fi y seguridad</p><h2 id="showcase-title">Elige qué quieres resolver.</h2><p>Revisa qué equipo interviene en cada caso y cuéntanos qué necesitas cotizar.</p></div>
+    <div class="showcase-heading" data-reveal><p class="eyebrow">Redes, Wi-Fi y seguridad</p><h2 id="showcase-title">Soluciones por necesidad</h2><p>Revisa qué equipo interviene en cada caso y cuéntanos qué necesitas cotizar.</p></div>
     <div class="hero-experience" data-reveal data-showcase aria-label="Explorador de soluciones">
         <div class="experience-head"><span class="micro-label">REDES · WI-FI · SEGURIDAD</span></div>
         <div class="experience-tabs" role="tablist" aria-label="Tipo de solución">
@@ -54,7 +50,7 @@
 </section>
 
 <section class="architecture hologram-section section-space" id="arquitectura" aria-labelledby="architecture-title">
-    <div class="shell"><div class="hologram-heading" data-reveal><p class="eyebrow">Para que el trabajo siga su curso</p><h2 id="architecture-title">Una buena conexión cambia el día de trabajo.</h2><p>Cuando cada área tiene lo que necesita para conectarse, el equipo puede concentrarse en avanzar. Explora cómo se organiza la red de tu espacio.</p></div>
+    <div class="shell"><div class="hologram-heading" data-reveal><p class="eyebrow">Arquitectura de red</p><h2 id="architecture-title">La red de una sede, área por área</h2><p>Cuando cada área tiene lo que necesita para conectarse, el equipo puede concentrarse en avanzar. Explora cómo se organiza la red de tu espacio.</p></div>
         <div class="hologram-stage" data-hologram data-active="sede" aria-label="Explorador interactivo de arquitectura de red">
             <div class="hologram-nodes" role="group" aria-label="Explorar componentes de la red">
                 <button class="hologram-node is-active" type="button" data-holo-node="sede" aria-pressed="true"><b>Sede</b></button>
@@ -107,7 +103,7 @@
 <section class="services section-space" id="servicios" aria-labelledby="services-title">
     <div class="shell">
         <div class="services-heading" data-reveal>
-            <div><p class="eyebrow">Servicios</p><h2 id="services-title">Redes para el trabajo diario.</h2></div>
+            <div><p class="eyebrow">Servicios</p><h2 id="services-title">Diseño, implementación y soporte</h2></div>
             <div class="services-intro"><p>Instalamos y configuramos redes cableadas y Wi-Fi. También podemos ayudarte con soporte y mantenimiento.</p><a class="button button-outline" href="{{ url('/cotizar') }}">Solicitar cotización</a></div>
         </div>
         <div class="service-list">
@@ -120,14 +116,14 @@
 
 <section class="affiliate section-space" id="afiliados" aria-labelledby="affiliate-title">
     <div class="shell affiliate-inner" data-reveal>
-        <div><p class="eyebrow">Programa de afiliados</p><h2 id="affiliate-title">Recomienda un proyecto. Recibe 10%.</h2></div>
+        <div><p class="eyebrow">Programa de afiliados</p><h2 id="affiliate-title">Afiliados de NODAXIS · 10%</h2></div>
         <div><p>Si conoces una empresa que necesita mejorar su red, preséntanosla. Escríbenos para confirmar las condiciones, el cálculo de la comisión y cuándo se paga antes de participar.</p><a class="button button-primary" href="https://wa.me/50372311719?text=Hola%2C%20quiero%20conocer%20las%20condiciones%20del%20programa%20de%20afiliados%20NODAXIS." target="_blank" rel="noopener">Consultar afiliación</a></div>
     </div>
 </section>
 
 <section class="newsletter section-space" id="boletin" aria-labelledby="newsletter-title">
     <div class="shell newsletter-inner">
-        <div class="newsletter-copy"><p class="eyebrow">Pulso de red</p><h2 id="newsletter-title">Ideas útiles para una red que funciona.</h2><p>Un correo ocasional con guías breves de Wi-Fi, cableado, seguridad y equipos. Sin promociones diarias.</p><div class="newsletter-topics" aria-label="Temas del boletín"><span>Wi-Fi</span><span>Seguridad</span><span>Infraestructura</span></div></div>
+        <div class="newsletter-copy"><p class="eyebrow">Pulso de red</p><h2 id="newsletter-title">Guías para administrar tu red</h2><p>Un correo ocasional con guías breves de Wi-Fi, cableado, seguridad y equipos. Sin promociones diarias.</p><div class="newsletter-topics" aria-label="Temas del boletín"><span>Wi-Fi</span><span>Seguridad</span><span>Infraestructura</span></div></div>
         <form class="newsletter-form" action="{{ route('newsletter.store') }}" method="post">
             @csrf
             <label for="newsletter-email">Tu correo electrónico</label>

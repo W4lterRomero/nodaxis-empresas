@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "docs"
 SOURCE = os.environ.get("STATIC_SOURCE", "http://127.0.0.1:8000").rstrip("/")
 PAGES = os.environ.get("PAGES_URL", "https://w4lterromero.github.io").rstrip("/")
-BASE_PATH = os.environ.get("PAGES_BASE_PATH", "/nodaxis/")
+BASE_PATH = os.environ.get("PAGES_BASE_PATH", "/nodaxis-empresas/")
 
 
 def fetch(path: str) -> str:

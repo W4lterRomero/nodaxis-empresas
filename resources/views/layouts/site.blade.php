@@ -34,9 +34,7 @@
     </div>
     <div class="header-progress" aria-hidden="true"><span data-scroll-progress></span></div>
 </header>
-<aside class="incentive-ribbon" aria-label="Beneficios NODAXIS">
-    <a class="incentive-ribbon-message" href="{{ url('/#afiliados') }}"><span class="incentive-dot" aria-hidden="true"></span>¿Recomiendas proyectos de redes? Conoce el programa de afiliados · <strong>10%</strong> · Consulta condiciones <span aria-hidden="true">→</span></a>
-</aside>
+<nav class="enterprise-links" aria-label="Recursos para empresas"><div class="shell"><a href="{{ url('/#afiliados') }}">Afiliados · 10%</a><a href="{{ url('/#boletin') }}">Boletín Pulso de red</a></div></nav>
 <main id="contenido">@yield('content')</main>
 <footer class="site-footer">
     <div class="shell footer-grid">
@@ -46,11 +44,7 @@
     </div>
     <div class="shell footer-bottom"><span>© {{ date('Y') }} NODAXIS · El Salvador</span><div><a href="{{ route('terms') }}">Términos y privacidad</a></div></div>
 </footer>
-<aside class="incentive-float" data-incentive-float aria-label="Programa de afiliados NODAXIS">
-    <span class="incentive-float-mark" aria-hidden="true">10%</span>
-    <a href="{{ url('/#afiliados') }}"><strong>Recomienda una red.</strong><span>Conoce el programa de afiliados</span></a>
-    <button type="button" data-incentive-dismiss aria-label="Cerrar anuncio">×</button>
-</aside>
+
 <a class="whatsapp-float" href="https://wa.me/50372311719" target="_blank" rel="noopener" aria-label="Contactar a NODAXIS por WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4a11.6 11.6 0 0 0-9.9 17.7L4.5 28l6.5-1.7A11.7 11.7 0 1 0 16 4Zm0 2.2a9.4 9.4 0 0 1 0 18.8c-1.6 0-3.1-.4-4.5-1.2l-.6-.3-3.8 1 1-3.7-.4-.6A9.4 9.4 0 0 1 16 6.2Zm-4 4.5c-.3 0-.7.1-1 .5-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.2 3.2c.2.2 2.1 3.3 5.2 4.5 2.6 1 3.2.8 3.8.7.6-.1 1.9-.8 2.2-1.6.3-.8.3-1.5.2-1.6-.1-.1-.3-.2-.7-.4l-2.2-1.1c-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.3-.7.1-.3-.1-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7l.5-.6c.2-.2.3-.4.4-.6.1-.2 0-.5 0-.6l-1-2.3c-.2-.5-.4-.5-.7-.5Z"/></svg><span>WhatsApp</span></a>
 </body>
 </html>
